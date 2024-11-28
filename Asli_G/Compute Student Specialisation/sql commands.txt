@@ -1,0 +1,9 @@
+drop database adminportal;
+
+
+create database adminportal;
+use adminportal;
+
+
+source ./create.sql
+source ./insert.sql
